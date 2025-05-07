@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+body {
+    background-image: url(/academia-luz-para-el-mundo/logos/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    
+}
