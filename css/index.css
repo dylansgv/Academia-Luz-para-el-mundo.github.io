@@ -9,6 +9,11 @@ body {
     background-image: url(/academia-luz-para-el-mundo/logos/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
 }
 
 img{
