@@ -3,10 +3,19 @@
     margin: 0;
 }
 
-
-
+#derecha{
+    float: right;
+}
+.ventas{
+    color: aliceblue;
+    transition:color 0.4s ease;
+    cursor: pointer;
+}
+.ventas:hover{
+    color: black;
+}
 body {
-    background-image: url(/academia-luz-para-el-mundo/logos/fondo.jpg);
+    background-image: url(/academia-luz-para-el-mundo/logos/image.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -23,15 +32,24 @@ footer div{
     float: right;
     cursor: pointer;
     color: aliceblue;
+    display: inline;
 }
 footer article{
     float: left;
     cursor: pointer;
     color: aliceblue;
+    display: inline;
 }
 #comienzo{
-    text-align: center;
+    display: inline;
+    text-align: center bottom;
     cursor: pointer;
+    color: aliceblue;
+}
+#comienzo:hover{
+    color: black;
+}
+footer a:link{
     color: aliceblue;
 }
 footer a:hover{
