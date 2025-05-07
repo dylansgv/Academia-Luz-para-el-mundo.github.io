@@ -19,3 +19,22 @@ body {
 img{
     
 }
+footer div{
+    float: right;
+    cursor: pointer;
+    color: aliceblue;
+}
+footer article{
+    float: left;
+    cursor: pointer;
+    color: aliceblue;
+}
+#comienzo{
+    text-align: center;
+    cursor: pointer;
+    color: aliceblue;
+}
+footer a:hover{
+    transition: color 0.4s ease;
+    color: black;
+}
