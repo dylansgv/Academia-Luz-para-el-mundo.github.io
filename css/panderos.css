@@ -22,3 +22,20 @@ article img{
     width: 500px;
     margin: 40px 420px;
 }
+.carrusel2{
+    margin-top: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+.elementos2{
+    flex: 1 0 auto;
+    margin: 0 20px;
+    background-color: blue;
+    width: 400px;
+    height: 350px;
+}
+.elementos2 img{
+    width: 400px;
+    height: 350px; 
+}
