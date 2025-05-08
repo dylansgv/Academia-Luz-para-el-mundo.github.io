@@ -1,129 +1,24 @@
-body{
-    background-color: rgb(243, 230, 230);
-}
-h1 {
+h1{
     text-align: center;
 }
-
-#carrusel-caja {
-    -moz-animation: automatizacion 15s infinite linear;
-    -o-animation: automatizacion 15s infinite linear;
-    -webkit-animation: automatizacion 15s infinite linear;
-    animation: automatizacion 15s infinite linear;
-
-    -webkit-transition: all 0.75s ease;
-    -moz-transition: all 0.75s ease;
-    -ms-transition: all 0.75s ease;
-    -o-transition: all 0.75s ease;
-    transition: all 0.75s ease;
-
-    height: 500px;
-    width: 50%;
+.carrusel{
+    margin-top: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
 }
-
-#carrusel-contenido {
-    margin: 0 auto;
-    overflow: hidden;
-    text-align: center;
+.elementos{
+    flex: 1 0 auto;
+    margin: 0 20px;
+    background-color: blue;
+    width: 400px;
+    height: 350px;
 }
-
-.imagenes{
-    height: 500px;
-    width: 50%;
+.elementos img{
+    width: 400px;
+    height: 350px; 
 }
-
-.carrusel-elemento {
-    float: center;
-    width: 33.333%;
-    margin: 0 auto;
-}
-
-@-moz-keyframes automatizacion {
-    0% {
-        margin-left: 0;
-    }
-
-    30% {
-        margin-left: 0;
-    }
-
-    35% {
-        margin-left: -100%;
-    }
-
-    65% {
-        margin-left: -100%;
-    }
-
-    70% {
-        margin-left: -200%;
-    }
-
-    95% {
-        margin-left: -200%;
-    }
-
-    100% {
-        margin-left: 0;
-    }
-}
-
-@-webkit-keyframes automatizacion {
-    0% {
-        margin-left: 0;
-    }
-
-    30% {
-        margin-left: 0;
-    }
-
-    35% {
-        margin-left: -100%;
-    }
-
-    65% {
-        margin-left: -100%;
-    }
-
-    70% {
-        margin-left: -200%;
-    }
-
-    95% {
-        margin-left: -200%;
-    }
-
-    100% {
-        margin-left: 0;
-    }
-}
-
-@keyframes automatizacion {
-    0% {
-        margin-left: 0;
-    }
-
-    30% {
-        margin-left: 0;
-    }
-
-    35% {
-        margin-left: -100%;
-    }
-
-    65% {
-        margin-left: -100%;
-    }
-
-    70% {
-        margin-left: -200%;
-    }
-
-    95% {
-        margin-left: -200%;
-    }
-
-    100% {
-        margin-left: 0;
-    }
+article img{
+    width: 500px;
+    margin: 40px 420px;
 }
