@@ -2,6 +2,15 @@
 h1{
     text-align: center;
 }
+
+
+a{
+    text-align: center;
+    
+}
+
+
+
 .carrusel{
     margin-top: 20%;
     display: flex;
@@ -68,12 +77,91 @@ header img{
 .volver{
     display: none;
 }
+
+
 article{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-body{
-    margin: 0;
+
+/*zona donde esta todo el tema del carrusel */
+#contenedor{
+    width: 100%;
+    height: 100vh;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    
 }
+
+/*boton del carrusel */
+button{
+    border: 1px solid black;
+}
+
+/*img del carrusel*/
+.carousel-item img{
+    width: 400px;
+    height: 400px;
+    margin: 0 12vh;
+    
+}
+
+
+#contactos{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    
+}  
+
+.contacto, .social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+}
+
+
+.contacto a, .social a{
+    color: white;
+    margin: 20px 0px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: darkgray;
+    padding: 1.2rem 2rem;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+
+
+.bton:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+} 
+
+
+.links-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+}
+
+
+
